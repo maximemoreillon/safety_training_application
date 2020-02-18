@@ -1,0 +1,65 @@
+.wrapper{
+  /* Height is fixed
+  otherwise problems win canvas sizing */
+  height: 90%;
+}
+
+.game {
+
+  flex-grow: 1;
+
+  display: flex;
+  align-items: stretch;
+
+  margin: 25px 10px;
+
+}
+
+.aside {
+  width: 20%;
+  overflow: auto;
+}
+
+.scores_wrapper {
+  text-align: center;
+}
+
+.group_name {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 2vw;
+}
+
+#scores_table {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#scores_table tr {
+  height: 40px;
+  font-size: 1.5vw;
+}
+
+#scores_table td:first-child {
+  width: 80%;
+}
+
+.buttons_wrapper {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.buttons_wrapper button {
+  width: 90%;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.canvas_wrapper {
+  flex-grow: 1;
+}
+
+canvas {
+  width: 100%;
+}
